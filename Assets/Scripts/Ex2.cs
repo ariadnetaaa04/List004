@@ -19,7 +19,7 @@ public class Ex2 : MonoBehaviour
     private float Convertor(float centimetro)
     { 
         float inches=centimetro * 0.39370f;
-        
+        Debug.Log($"{centimetro} cm son {inches} pulgadas");
         return inches;
     }
 
